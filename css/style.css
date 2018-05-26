@@ -1,0 +1,31 @@
+header{
+	background-image: url(../img/hero.jpg);
+	height: 500px;
+	background-size: 100% 100%;
+	color: white;
+}
+
+
+.colorverde{
+	color: #90EE90;
+}
+
+.fondoverde{
+
+}
+
+.txt_blanco{
+	color: white;
+}
+
+.txt_rojo{
+	color: red;
+}
+
+.txt_verde{
+	color: #90EE90;
+}
+
+footer{
+	color: white;
+}
