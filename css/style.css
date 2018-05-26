@@ -1,6 +1,6 @@
 header{
 	background-image: url(../img/hero.jpg);
-	height: 500px;
+	height: 600px;
 	background-size: 100% 100%;
 	color: white;
 }
@@ -27,5 +27,9 @@ header{
 }
 
 footer{
+	color: white;
+}
+
+i{
 	color: white;
 }
