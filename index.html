@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
             
 </head>
@@ -26,10 +27,11 @@
 		   </div>
 		 </nav>
 		</div>
-		<div class="valign-wrapper left-align">
+		<div class="margin">
 			<h1>FITNESS IN A CAN <span class="colorverde">/</span></h1>
-			<p> YES YOU CAN</p>
+			<p class="alignright"> YES YOU CAN</p>
 		</div>
+		
 	</header>
 
 	<div class="card-panel lime accent-4">
@@ -66,7 +68,7 @@
 
 		<section>
 			<div class="col s12 m7 l12 card-panel white">
-			    <p class="txt_rojo"> IT'S ALL ABOUT </p>
+				<p class="txt_rojo"> IT'S ALL ABOUT </p>
 				<h2 class="txt_verde"> FITNESS FIRST </h2>
 			    <div class="card horizontal">
 			    	<div class="card-stacked">
@@ -76,16 +78,12 @@
 			        	<div class="card-action">
 			        	  <a href="#">Read more</a>
 			        	</div>
-			       </div>
-			      <div class="card-image">
-			        <img src="img/yoga.jpg">
-			      </div>
-			      </div>
+			        </div>
+			        <div class="card-image">
+			            <img src="img/yoga.jpg">
+			        </div>
 			    </div>
-			  </div>
-		</section>
-		<section>
-			<div class="col s12 m7 l12 card-panel white">
+			    
 				<div class="card horizontal">
 					<div class="card-image">
 			        	<img src="img/apple-watch.jpg">
@@ -103,19 +101,17 @@
 			    </div>
 			</div>
 		</section>
+	</div>
 </div>
 
 
-
-	<div class="card-panel red">
-			    
-
-		<section id="works">
-			<div class="row">
-			    <div class="col s12 m6 l6">
-			      <div class="card">
-			        <div class="card-image">
-			          <img src="img/jogging.jpg">
+<div class="card-panel red">
+	<section id="works">
+		<div class="row">
+			<div class="col s12 m6 l4">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/jogging.jpg">
 			        </div>
 			        <div class="card-content">
 			          <p class="txt_rojo"> TRACK YOUR</p>
@@ -125,30 +121,30 @@
 			        <div class="card-action">
 			          <a href="#">Read more</a>
 			        </div>
-			      </div>
 			    </div>
-			  </div>
-		</section>
-		<section>
-		<div class="row">
-			<div class="col s12 m6 l6">
+			</div>
+			<div class="col s12 m6 l8">
 				<div class="card">
-					<img class="resize" src="img/beach.jpg">
-					<div class="txt_blanco card-panel lime accent-4">
+					<div class="card-image">
+						<img class="resize" src="img/beach.jpg">
+					</div>
+					<div class="card-content txt_blanco card-panel lime accent-4">
 						<h2> SUMMER OF FUN </h2>
 						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui recusandae, numquam deserunt totam! Provident sit temporibus excepturi earum doloribus reiciendis, distinctio in culpa officiis rem nulla non vel, voluptas neque.</p>
-						<a href="#">Read more</a>
+						<a href="#">READ MORE</a>
 					</div>
+
 				</div>
 			</div>
-		</div>
-		</section>
-		<section id="services">
-			<div class="row">
-			    <div class="col s12 m6 l6">
-			      <div class="card">
-			        <div class="card-image">
-			          <img src="img/self-involved.jpg">
+	    </div>
+    </section>
+		
+	<section id="services">
+		<div class="row">
+			<div class="col s12 m6 l8">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/self-involved.jpg">
 			        </div>
 			        <div class="card-content">
 			          <p class="txt_rojo"> HELPING YOU</p>
@@ -158,16 +154,14 @@
 			        <div class="card-action">
 			          <a href="#">Read more</a>
 			        </div>
-			      </div>
 			    </div>
-			  </div>
-		</section>
-		<section>
-			<div class="row">
-			<div class="col s12 m6 l6">
+			</div>
+			<div class="col s12 m6 l4">
 				<div class="card">
+				<div class="card-image">
 					<img class="resize" src="img/eating-habits.jpg">
-					<div class="txt_blanco card-panel lime accent-4">
+				</div>
+					<div class=" card-content txt_blanco card-panel lime accent-4">
 						<p> IMPROVE YOUR </p>
 						<h2> EATING HABITS </h2>
 						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui recusandae, numquam deserunt totam! Provident sit temporibus excepturi earum doloribus reiciendis, distinctio in culpa officiis rem nulla non vel, voluptas neque.</p>
@@ -175,9 +169,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
+	    </div>
+	</section>
+</div>
 	<section id="faq" class="leaders txt_blanco center-align valign-wrapper">
 		<div>
 			<h1> We launch leaders with big ideas</h1>
@@ -203,8 +197,16 @@
 						<i class="fab fa-twitter fa-2x "></i>
 						<i class="fab fa-github fa-2x "></i>
 					</div>
-				
+					<form>
+					       <div class="input-field">
+					         <input id="search" type="search" required>
+					         <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+					         <i class="material-icons">close</i>
+					       </div>
+					     </form>
 				</div>
+
+
 			</div>
 		</div>
 	</footer>

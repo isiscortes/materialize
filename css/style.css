@@ -5,6 +5,13 @@ header{
 	color: white;
 }
 
+.nav-wrapper{
+	padding: 2%;
+}
+
+.card-panel{
+	margin: 0rem 0 0rem 0 !important;
+}
 
 .leaders{
 	background-image: url(../img/footer.jpg);
@@ -47,9 +54,8 @@ i{
 }
 
 .resize{
-
+	height: 400px;
 	width: 100%;
-	height: 300px;
 }
 
 .bold{
@@ -57,4 +63,17 @@ i{
 }
 
 nav {
-  background-color:transparent !important;
+  background-color:transparent !important;}
+
+.margin{
+	padding: 2%;
+	margin-top: 15%;
+}
+
+.alignright{
+	margin-left: 40%;
+}
+
+.padding{
+	padding: 1%;
+}
