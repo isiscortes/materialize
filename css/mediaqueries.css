@@ -10,6 +10,15 @@ header{
     background-position: 50% 50%; 
 }
 
+.triangle {
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid red;
+	border-left: 400px solid transparent;
+	opacity: 0.5;
+}
+
+
 .leaders{
 	background: url(../img/footer.jpg);
 	background-repeat: no-repeat;
@@ -51,6 +60,13 @@ ul, .texto {
 
 @media  all  and (min-width: 768px) and (max-width: 992px ){
 
+.triangle {
+	width: 0;
+	height: 0;
+	margin-top: 50%;
+	border-left: 700px solid transparent;
+	opacity: 0.5;
+}
 
 
 
@@ -88,6 +104,13 @@ header{
 
 @media  all  and (min-width: 992px) and (max-width: 1200px ){
 
+.triangle {
+	width: 0;
+	height: 0;
+	margin-top: 50%;
+	border-left: 992px solid transparent;
+	opacity: 0.5;
+}
 
 header{
 	background: url(../img/hero.jpg);
