@@ -1,0 +1,108 @@
+
+/* Celular  Extra Small size display*/
+
+@media all and (max-width: 768px){
+header{
+	background: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 100%;
+    background-position: 50% 50%; 
+}
+
+.leaders{
+	background: url(../img/footer.jpg);
+	background-repeat: no-repeat;
+	height: 768px;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: 100% 100%; 
+}
+
+.margin{
+	padding: 2%;
+	margin-top: 55% !important;
+}
+
+.alignright{
+	margin-right: 0%;
+	font-size: 70%;
+	text-align: left;
+}
+
+h1{
+	font-size: 2em;
+}
+ul, .texto {
+	display: none;
+}
+
+.padding{
+	padding-bottom: 5%;
+}
+
+.card-horizontal{
+	
+}
+
+
+
+/* Tablet  Small size display*/
+
+@media  all  and (min-width: 768px) and (max-width: 992px ){
+
+
+
+
+
+ul, .texto {
+	display: none;
+}
+
+
+header{
+	background: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: 50% 50%; 
+}
+
+.leaders{
+	background: url(../img/footer.jpg);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: 50% 50%; 
+}
+
+/* Laptop  Medium size display*/
+
+
+
+
+
+
+
+@media  all  and (min-width: 992px) and (max-width: 1200px ){
+
+
+header{
+	background: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: 50% 50%; 
+}
+
+.leaders{
+	background: url(../img/footer.jpg);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: 50% 50%; 
+}
