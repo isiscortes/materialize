@@ -63,7 +63,9 @@ i{
 }
 
 nav {
-  background-color:transparent !important;}
+  background-color:transparent !important;
+  box-shadow: 0 0px 0px 0 !important;
+  -webkit-box-shadow: 0 0px 0px 0 !important;}
 
 .margin{
 	padding: 2%;
